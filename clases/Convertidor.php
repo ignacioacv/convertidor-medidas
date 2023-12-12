@@ -11,15 +11,15 @@ abstract class Convertidor {
         $this->aUnidad = $aUnidad;
     }
     
-    abstract function convert1 ($valor, $deUnidad, $aUnidad);
-    abstract function convert2 ($valor, $deUnidad, $aUnidad);
-    abstract function convert3 ($valor, $deUnidad, $aUnidad);
-    abstract function convert4 ($valor, $deUnidad, $aUnidad);
-    abstract function convert5 ($valor, $deUnidad, $aUnidad);
-    abstract function convert6 ($valor, $deUnidad, $aUnidad);
-    abstract function convert7 ($valor, $deUnidad, $aUnidad);
-    abstract function convert8 ($valor, $deUnidad, $aUnidad);
-    abstract function convert9 ($valor, $deUnidad, $aUnidad);
-    abstract function convert10 ($valor, $deUnidad, $aUnidad);
+    abstract function convert1 ();
+    abstract function convert2 ();
+    abstract function convert3 ();
+    abstract function convert4 ();
+    abstract function convert5 ();
+    abstract function convert6 ();
+    abstract function convert7 ();
+    abstract function convert8 ();
+    abstract function convert9 ();
+    abstract function convert10();
 }
 ?>

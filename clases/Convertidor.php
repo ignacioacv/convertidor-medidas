@@ -15,11 +15,6 @@ abstract class Convertidor {
     abstract function convert2 ();
     abstract function convert3 ();
     abstract function convert4 ();
-    abstract function convert5 ();
-    abstract function convert6 ();
-    abstract function convert7 ();
-    abstract function convert8 ();
-    abstract function convert9 ();
-    abstract function convert10();
+   
 }
 ?>

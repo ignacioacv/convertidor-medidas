@@ -1,14 +1,14 @@
 <?php
-class deKilA extends Convertidor{
+class DeKilA extends Convertidor{
     public function convert1()
     {
         $newValor = $this->valor * 2.205;
-        return "$this->valor Kilogramo equivale a $newValor Libra";
+        return "$this->valor Kilogramo equivale a $newValor Libras";
     }
     public function convert2()
     {
         $newValor = $this->valor * 35.274;
-        return "$this->valor Kilogramo equivale a $newValor Onza";
+        return "$this->valor Kilogramo equivale a $newValor Onzas";
     }
     public function convert3()
     {
